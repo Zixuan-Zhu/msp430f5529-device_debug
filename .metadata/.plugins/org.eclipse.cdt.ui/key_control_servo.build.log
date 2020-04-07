@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project key_control_servo ****
+
+"C:\\ti\\ccs900\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+gmake[1]: 'key_control_servo.out' is up to date.
+
+**** Build Finished ****

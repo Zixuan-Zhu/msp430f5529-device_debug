@@ -1,0 +1,1 @@
+"./Config.obj" "./Display_EPD_SPI.obj" "./EPD.obj" "./main.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

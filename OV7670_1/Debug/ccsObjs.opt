@@ -1,0 +1,1 @@
+"./SCCB.obj" "./main.obj" "./ov7670.obj" "../lnk_msp430f5529.cmd" -llibmath.a -llibc.a 

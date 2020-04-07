@@ -1,0 +1,81 @@
+
+**** Build of configuration Debug for project TFMINI ****
+
+"C:\\ti\\ccs900\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccs900/ccs/ccs_base/msp430/include" --include_path="C:/Users/ZZX/workspace_v9/TFMINI" --include_path="C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"..\key.h", line 13: warning #48-D: incompatible redefinition of macro "delay_ms" (declared at line 15 of "..\lcd_1602.h")
+"..\key.h", line 14: warning #48-D: incompatible redefinition of macro "delay_us" (declared at line 14 of "..\lcd_1602.h")
+"../main.c", line 40: warning #225-D: function "set_PWM" declared implicitly
+"../main.c", line 54: warning #161-D: declaration is incompatible with previous "set_PWM" (declared at line 40)
+"../main.c", line 133: warning #225-D: function "display" declared implicitly
+"../main.c", line 135: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 161: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 180: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 194: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 208: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 213: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 225: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 230: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 135: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 161: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 180: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 194: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 208: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 213: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 225: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 230: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 208: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 213: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 225: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 230: remark #1527-D: (ULP 2.1) Detected SW delay loop using __delay_cycles. Recommend using a timer module instead
+"../main.c", line 279: warning #225-D: function "lcd_printf" declared implicitly
+"../main.c", line 280: warning #225-D: function "display" declared implicitly
+"../main.c", line 281: warning #225-D: function "lcd_printf1" declared implicitly
+"../main.c", line 271: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function shot_dis. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 277: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function write_cmd. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 279: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 280: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 281: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf1. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 282: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 271: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function shot_dis. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 277: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function write_cmd. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 279: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 280: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 281: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf1. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 282: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 271: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function shot_dis. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 277: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function write_cmd. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 279: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 280: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 281: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf1. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 282: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 271: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function shot_dis. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 277: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function write_cmd. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 279: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 280: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 281: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf1. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 282: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 271: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function shot_dis. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 277: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function write_cmd. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 279: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 280: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 281: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function lcd_printf1. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 282: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function display. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 63 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+"../main.c", line 65 (col. 19): remark #1531-D: (ULP 5.2) Detected floating point operation(s). Recommend moving them to RAM during run time or not using as these are processing/power intensive
+Finished building: "../main.c"
+ 
+Building target: "TFMINI.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"TFMINI.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs900/ccs/ccs_base/msp430/include" -i"C:/ti/ccs900/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/lib" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="TFMINI_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "TFMINI.out" "./key.obj" "./lcd_1602.obj" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "TFMINI.out"
+ 
+
+**** Build Finished ****

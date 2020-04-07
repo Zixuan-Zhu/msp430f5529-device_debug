@@ -1,0 +1,34 @@
+
+**** Build of configuration Debug for project E-Ink7.5 ****
+
+"C:\\ti\\ccs900\\ccs\\utils\\bin\\gmake" -k -j 4 all -O 
+ 
+Building file: "../main.c"
+Invoking: MSP430 Compiler
+"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --include_path="C:/ti/ccs900/ccs/ccs_base/msp430/include" --include_path="C:/Users/ZZX/workspace_v9/E-Ink7.5" --include_path="C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+"../main.c", line 51: warning #112-D: statement is unreachable
+"../main.c", line 52: warning #112-D: statement is unreachable
+"../main.c", line 53: warning #112-D: statement is unreachable
+"../main.c", line 54: warning #112-D: statement is unreachable
+"../main.c", line 55: warning #112-D: statement is unreachable
+"../main.c", line 56: warning #112-D: statement is unreachable
+"../main.c", line 85: warning #169-D: argument of type "volatile unsigned char *" is incompatible with parameter of type "unsigned char *"
+"../main.c", line 76: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function H_to_D. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 76: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function H_to_D. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 85: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function buffer_write. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 89: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function EPD_refresh. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+"../main.c", line 99: remark #1538-D: (ULP 10.1) ISR USCI_A1_ISR calls function EPD_W21_WriteCMD. Recommend moving function call away from ISR, or inlining the function, or using pragmas
+Finished building: "../main.c"
+ 
+Building target: "E-Ink7.5.out"
+Invoking: MSP430 Linker
+"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/bin/cl430" -vmspx --data_model=restricted --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"E-Ink7.5.map" --heap_size=160 --stack_size=160 --cinit_hold_wdt=on -i"C:/ti/ccs900/ccs/ccs_base/msp430/include" -i"C:/ti/ccs900/ccs/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/lib" -i"C:/ti/ccs900/ccs/tools/compiler/ti-cgt-msp430_18.12.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="E-Ink7.5_linkInfo.xml" --use_hw_mpy=F5 --rom_model -o "E-Ink7.5.out" "./Config.obj" "./Display_EPD_SPI.obj" "./EPD.obj" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "E-Ink7.5.out"
+ 
+
+**** Build Finished ****
